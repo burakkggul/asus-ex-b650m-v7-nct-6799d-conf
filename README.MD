@@ -22,6 +22,11 @@ The following voltage sensors have been calibrated with the expected voltage ran
   - Min: 0.75V  
   - Max: 1.5V  
 
+- **5V**:  
+  - Min: 4.8V  
+  - Max: 5.2V  
+  - Computed with factor `5`
+
 - **AVSB**:  
   - Min: 3.1V  
   - Max: 3.5V  
@@ -33,12 +38,7 @@ The following voltage sensors have been calibrated with the expected voltage ran
 - **12V**:  
   - Min: 11.4V  
   - Max: 12.6V  
-  - Computed with factor `11.98`
-
-- **5V**:  
-  - Min: 4.8V  
-  - Max: 5.2V  
-  - Computed with factor `5`
+  - Computed with factor `12`
 
 - **3VSB**:  
   - Min: 3.1V  
@@ -51,6 +51,14 @@ The following voltage sensors have been calibrated with the expected voltage ran
 - **VTT**:  
   - Min: 3.1V  
   - Max: 3.5V  
+
+- **CPU VDDIO /MC**:  
+  - Min: 0.9V  
+  - Max: 1.2V  
+
+- **VHIF**:  
+  - Min: 1.7V  
+  - Max: 1.9V  
 
 ## Fan Speed Labels
 
@@ -131,7 +139,7 @@ This configuration provides detailed monitoring for the **ASUS EX-B650M-V7** mot
 
 For more information, visit the official [NCT-6775 Kernel Driver documentation](https://docs.kernel.org/hwmon/nct6775.html) or refer to the [LM-Sensors](https://linux.die.net/man/1/sensors) project for detailed sensor support.
 
---- 
+---
 
 This README file provides an overview and installation instructions for the **nct6799.conf** configuration. It includes the correct voltage, fan, and temperature settings to monitor system health effectively on the **ASUS EX-B650M-V7** motherboard with the **NCT-6799D** chipset.
 
